@@ -1,14 +1,10 @@
+# Morse 01
+> Dieses Projekte kann auf der eeducation_seite aufgerufen werden:
 
-> Diese Seite bei [https://dlpl-mb.github.io/morse_1/](https://dlpl-mb.github.io/morse_1/) öffnen
+[https://microbit.eeducation.at/wiki/morse1](https://makecode.microbit.org/)
 
-## Als Erweiterung verwenden
+## Dieses Projekte kann als Grundlage für Morse 02 genommen werden
 
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
-
-* öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klicke auf **Neues Projekt**
-* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/dlpl-mb/morse_1** suchen und importieren
 
 ## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/dlpl-mb/morse_1/workflows/MakeCode/badge.svg)
 
@@ -16,14 +12,14 @@ Um dieses Repository in MakeCode zu bearbeiten.
 
 * öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/dlpl-mb/morse_1** ein und klicke auf Importieren
+* füge **https://github.com/dlpl-mb/morse_01** ein und klicke auf Importieren
 
 ## Blockvorschau
 
 Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
 Die Aktualisierung dieses Bildes kann einige Minuten dauern.
 
-![Eine gerenderte Ansicht der Blöcke](https://github.com/dlpl-mb/morse_1/raw/master/.github/makecode/blocks.png)
+![Eine gerenderte Ansicht der Blöcke](https://github.com/dlpl-mb/morse_01/raw/master/.github/makecode/blocks.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
