@@ -13,6 +13,17 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         . . . . .
         `)
+    radio.sendString(".")
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+    if (receivedString.includes(".")) {
+        music.ringTone(262)
+        basic.pause(200)
+    } else {
+        music.ringTone(262)
+        basic.pause(600)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -23,6 +34,7 @@ input.onButtonPressed(Button.B, function () {
         . . . . .
         `)
     basic.showString("-")
+    radio.sendString("-")
 })
 basic.showLeds(`
     . . # . .
@@ -31,4 +43,4 @@ basic.showLeds(`
     . # . # .
     # . . . #
     `)
-radio.setGroup(1)
+radio.setGroup(25)
