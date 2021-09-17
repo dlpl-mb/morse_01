@@ -16,11 +16,18 @@ input.onButtonPressed(Button.A, function () {
     radio.sendString(".")
 })
 radio.onReceivedString(function (receivedString) {
-    basic.showString(receivedString)
     if (receivedString.includes(".")) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . . . .
+            . . . . .
+            `)
         music.ringTone(262)
         basic.pause(200)
     } else {
+        basic.showString("-")
         music.ringTone(262)
         basic.pause(600)
     }
