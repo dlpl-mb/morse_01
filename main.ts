@@ -17,6 +17,7 @@ input.onButtonPressed(Button.A, function () {
 })
 radio.onReceivedString(function (receivedString) {
     if (receivedString.includes(".")) {
+        music.playTone(262, music.beat(BeatFraction.Whole))
         basic.showLeds(`
             . . . . .
             . . . . .
@@ -24,12 +25,9 @@ radio.onReceivedString(function (receivedString) {
             . . . . .
             . . . . .
             `)
-        music.ringTone(262)
-        basic.pause(200)
     } else {
+        music.playTone(262, music.beat(BeatFraction.Breve))
         basic.showString("-")
-        music.ringTone(262)
-        basic.pause(600)
     }
 })
 input.onButtonPressed(Button.B, function () {
